@@ -93,7 +93,7 @@ app.layout = html.Div(
     [
         html.H1("Understanding the Gender Wage Gap"),
         
-        dcc.Markdown(children = markdown_text),
+        # dcc.Markdown(children = markdown_text),
         
         html.H2("Mean Statistics table by Sex"),
         dcc.Graph(figure=table),
